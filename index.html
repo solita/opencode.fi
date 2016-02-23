@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>avoinkoodi.fi by Solita</title>
+    <meta name="description" content="Lista julkishallinnon avoimen lähdekoodin järjestelmistä. Palvelua ylläpitää Solita.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/solitatheme.css" media="screen">
+    <script src="./js/safari_bind.js"></script>
+    <script src="./js/jquery-2.2.0.min.js"></script>
+    <script src="./js/avoinkoodi.js"></script>
+
+    <meta property="og:url" content="http://www.avoinkoodi.fi">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="avoinkoodi.fi">
+    <meta property="og:description" content="Lista julkishallinnon avoimen lähdekoodin järjestelmistä. Palvelua ylläpitää Solita.">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <h1 class="header-title">avoinkoodi.fi</h1>
+        <p class="header-lead">Lista julkishallinnon avoimen lähdekoodin järjestelmistä</p>
+
+        <div class="header-divider"></div>
+
+        <a href="https://github.com/solita/avoinkoodi" class="btn">
+          <svg class="btn-icon btn-icon--gh" height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.7 4.34c0.13-0.32 0.55-1.59-0.13-3.31 0 0-1.05-0.33-3.44 1.3C10.13 2.05 9.06 2.01 8 2.01c-1.06 0-2.13 0.04-3.13 0.32C2.48 0.69 1.43 1.03 1.43 1.03 0.75 2.75 1.17 4.02 1.3 4.34 0.49 5.21 0 6.33 0 7.69 0 12.84 3.33 14 7.98 14 12.63 14 16 12.84 16 7.69 16 6.33 15.51 5.21 14.7 4.34zM8 13.02c-3.3 0-5.98-0.15-5.98-3.35 0-0.76 0.38-1.48 1.02-2.07 1.07-0.98 2.9-0.46 4.96-0.46 2.07 0 3.88-0.52 4.96 0.46 0.65 0.59 1.02 1.3 1.02 2.07C13.98 12.86 11.3 13.02 8 13.02zM5.49 8.01c-0.66 0-1.2 0.8-1.2 1.78s0.54 1.79 1.2 1.79c0.66 0 1.2-0.8 1.2-1.79S6.15 8.01 5.49 8.01zM10.51 8.01C9.85 8.01 9.31 8.8 9.31 9.79s0.54 1.79 1.2 1.79 1.2-0.8 1.2-1.79C11.71 8.8 11.18 8.01 10.51 8.01z" />
+          </svg>
+          Projekti GitHubissa	
+        </a>
+        <a href="projects.json" class="btn">
+          <svg class="btn-icon" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+              <path d="M0 0h24v24H0z" fill="none"/>
+          </svg>
+      	  Projektilista JSON-muodossa
+        </a>
+      </div>
+
+      <div class="some-widgets">
+        <div class="some-widget">
+          <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+        </div>
+
+        <div class="some-widget">
+          <div class="fb-like" data-href="http://www.avoinkoodi.fi" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+        </div>
+
+        <div class="some-widget">
+          <div class="g-plus" data-action="share" data-annotation="bubble" data-href="https://www.avoinkoodi.fi"></div>
+        </div>
+      </div>
+    </header>
+
+    <article class="article">
+      <div class="wrapper">
+        <h3>
+        <a id="avoimen-lähdekoodin-projektit-julkishallinnossa" class="anchor" href="#avoimen-l%C3%A4hdekoodin-projektit-julkishallinnossa" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Avoimen lähdekoodin järjestelmät julkishallinnossa</h3>
+
+        <p>Tämä sivusto on yksinkertainen listaus kotimaan julkishallinnon IT-järjestelmistä, joiden lähdekoodi on julkisesti saatavilla. Tarkoitus on helpottaa tiedon löytämistä ja olemassaolevien ratkaisujen kartoittamista, ei tarjota kokonaisvaltaista palvelualustaa tai ohjeita projektien käynnistämistä varten. </p>
+
+        <p>Jos tiedät, että listalta puuttuu jotain, voit käyttää GitHubin mekanismeja (issues tai pull request) asian ilmoittamiseen. Lista pysyy ajan tasalla, jos sen ylläpitämiseen osallistuu mahdollisimman moni.</p>
+
+        <h3>
+        <a id="miksi" class="anchor" href="#miksi" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Miksi</h3>
+
+        <p>Tällaista listaa ei näyttänyt olevan olemassa, mutta julkishallinnossa avoimen lähdekoodin käyttö on nyt lisääntynyt ja lähdekoodia on aiempaa enemmän saatavilla julkisesti erilaisista palveluista. Tämä on kevyt ja nopea tapa kokeilla, onko listaukselle käyttäjiä ja tilausta.</p>
+
+        <h3>
+        <a id="lista-palveluista" class="anchor" href="#lista-palveluista" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Lista palveluista</h3>
+
+        <table>
+        <thead>
+        <tr>
+        <th>Omistaja</th>
+        <th>Järjestelmä</th>
+        <th>Lähdekoodi</th>
+	<th>Palvelun osoite</th>
+        </tr>
+        </thead>
+        <tbody id="projects">
+        </tbody>
+        </table>
+
+        <h3>
+        <a id="linkkejä-ja-tietoa-avoimesta-lähdekoodista-ja-avoimesta-datasta-yleisesti" class="anchor" href="#linkkej%C3%A4-ja-tietoa-avoimesta-l%C3%A4hdekoodista-ja-avoimesta-datasta-yleisesti" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Linkkejä ja tietoa avoimesta lähdekoodista ja avoimesta datasta yleisesti</h3>
+
+        <ul>
+          <li>
+            <a href="https://www.avoindata.fi/fi">Avoindata.fi</a> - Tietoa avoimesta datasta ja sen käytöstä.
+	  </li>
+          <li>
+            <a href="http://docs.jhs-suositukset.fi/jhs-suositukset/JHS169/JHS169.html">JHS-suositus 169</a> - Julkishallinnon suositus avoimesta lähdekoodista.
+	  </li>
+          <li>
+	    <a href="http://docs.jhs-suositukset.fi/jhs-suositukset/JHS166_liite2/JHS166_liite2.html">JHS-suositus 166, liite 2</a> - JIT 2015, sopimusehtojen liite avoimen lähdekoodin hankinnoista.
+	  </li>
+	  <li>
+            <a href="https://coss.fi/">COSS ry</a> - Avoimen lähdekoodin, avointen rajapintojen ja avointen standardien edistämisyhdistys.</li>
+          <li>
+            <a href="http://www.okf.fi/">Open Knowledge Finland ry</a> - Avoimen tiedon edistämiseen keskittynyt yhdistys. Osa kansainvälistä Open Knowledge -verkostoa.
+          </li>
+          <li>
+            <a href="http://www.avoinrajapinta.fi/">Avoimen rajapinnan määritelmä</a> - Coss ry:n ja Open Knowledge Finland ry:n yhteistyössä laatima avoimen rajapinnan määritelmä.
+          </li>
+        </ul>
+      </div>
+    </article>
+
+    <footer class="footer">
+      <a class="logo logo-white" href="http://www.solita.fi"></a>
+      <div class="footer-content"><a href="https://github.com/solita/avoinkoodi">avoinkoodi.fi</a>-palvelua ylläpitää <a href="https://github.com/solita">Solita</a>.</div>
+      <div class="footer-quote">
+	Kalevala: "Ei sanat salahan joua eikä luottehet lovehen; mahti ei joua maan rakohon, vaikka mahtajat menevät."
+      </div>      
+    </footer>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+        try {
+          var pageTracker = _gat._getTracker("UA-35431188-3");
+            pageTracker._trackPageview();
+          } catch(err) {}
+      </script>
+
+      <!-- Twitter SDK -->
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+      <!-- Facebook SDK -->
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/fi_FI/sdk.js#xfbml=1&version=v2.5&appId=996503203750493";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Google+ SDK -->
+      <script src="https://apis.google.com/js/platform.js" async defer></script>
+  </body>
+</html>
