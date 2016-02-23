@@ -5,9 +5,11 @@ Opencode.fi
 Työstäminen kesken. gh-pages branch on julkinen heti kun se luodaan, vaikka repository on private.
 
 Lokaalisti saitin voi käynnistää vaikka näin:
-´´´
+
+```
 python -m SimpleHTTPServer 8000
-´´´
+```
+
 
 ------
 
