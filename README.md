@@ -13,10 +13,10 @@ python -m SimpleHTTPServer 8000
 
 ------
 
-Opencode.fi is simple listing of Finnish public sector IT projects, which have open sourced their development and published the source code. The service is available in Finnish at [avoinkoodi.fi](http://www.avoinkoodi.fi/) and this is the english language version.
+Opencode.fi is a simple listing of Finnish public sector IT projects, which have open sourced their development and published the source code. The service is mainly available in Finnish at [avoinkoodi.fi](http://www.avoinkoodi.fi/) and this is the english language version.
 
 This site lists the publicly available source code for software systems owned and used by Finnish public sector. We do
-not intend to list every single source code repository containing some subcomponent or small software library.
+not list all repositories containing some subcomponent or small software libraries.
 
 ## What is this site about?
 
@@ -25,7 +25,8 @@ Finland as a nation will not lose anything if Swedish officials evaluate, or reu
 Finland collectively own. Neither will the Finnish software contractors lose anything. Quite the contrary, Finnish
 software companies are quite happy to offer their services if something looks interesting or useful.
 
-The hero Wainamoinen (Väinämöinen) challenges the ancient Antero Vipunen in the [Finnish national epic Kalevala](https://en.wikipedia.org/wiki/Kalevala) thus:
+In the [Finnish national epic Kalevala](https://en.wikipedia.org/wiki/Kalevala), the hero Wainamoinen (Väinämöinen) challenges the
+ancient Antero Vipunen to give him valuable knowledge thus:
 
 "I shall never, never leave thee
 Till I learn thine incantations,
@@ -35,6 +36,7 @@ Never must these words be bidden,
 Earth must never lose this wisdom,
 Though the wisdom-singers perish."
 
+We believe he was onto something here. 
 
 ## Why open source is important for the public sector?
 
@@ -53,10 +55,12 @@ made software is the right solution in some cases.
 Even though the needs and requirements are unique in each country, they are not totally apart from each other. Inside the
 country, each county, university and such officials are subject to same laws and requirements. It would be practical and
 reasonable to customize a solution already used by some official elsewhere. This would save money, effort and time. Simply
-evaluating another solution is valuable, even if none of the actual source code is reused.
+evaluating another solution is valuable too, even if none of the actual source code is reused.
 
 Finally, the public sector doesn't have any commercial interests as such. By definition, public sector is not going to sell and
-market their software to anyone.
+market their software to anyone. Sharing the source code does not cost money, but can save money and effort from other public sector officials.
+Occasionally this may lead to shared development, which will save money from the original customer too, but that's a nice side-effect, not the
+foremost goal in our opinion.
 
 ## How does opencode.fi work?
 

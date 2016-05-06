@@ -60,7 +60,7 @@
 
 	// Get FB shares
 
-	$.get('http://graph.facebook.com/?id=http://www.publicsource.fi',
+	$.get('http://graph.facebook.com/?id=http://www.opencode.fi',
 		function(data) {
 			if (data.shares) {
 				$('#fb-share-count').text(data.shares);			
@@ -79,7 +79,7 @@
 	    'id': 'p',
 	    'params':{
         'nolog': true,
-        'id': 'http://www.publicsource.fi/',
+        'id': 'http://www.opencode.fi/',
         'source': 'widget',
         'userId': '@viewer',
         'groupId': '@self'
