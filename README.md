@@ -2,17 +2,6 @@
 Opencode.fi
 =============
 
-Työstäminen kesken. gh-pages branch on julkinen heti kun se luodaan, vaikka repository on private.
-
-Lokaalisti saitin voi käynnistää vaikka näin:
-
-```
-python -m SimpleHTTPServer 8000
-```
-
-
-------
-
 Opencode.fi is a simple listing of Finnish public sector IT projects, which have open sourced their development and published the source code. The service is mainly available in Finnish at [avoinkoodi.fi](http://www.avoinkoodi.fi/) and this is the english language version.
 
 This site lists the publicly available source code for software systems owned and used by Finnish public sector. We do
