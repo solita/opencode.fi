@@ -1,6 +1,14 @@
 {
     "projects": [
-    {
+  {
+            "project": "Koha – open source library system",
+	    "owner": "Koha-Suomi ltd owned by counties/municipalities",
+	    "code_url": "https://github.com/KohaSuomi/kohasuomi",
+	    "service_url": "-",
+	    "homepage_url": "",
+            "description": "Version of KOHA library system tailored to suit Finland."
+   },
+   {
             "project": "Course pages - content and information service",
             "owner": "University of Helsinki",
             "code_url": "https://github.com/UH-StudentServices/coursepages",
