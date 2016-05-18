@@ -2,6 +2,8 @@
 Opencode.fi
 =============
 
+[![Build Status](https://travis-ci.org/solita/opencode.fi.svg?branch=gh-pages)](https://travis-ci.org/solita/opencode.fi)
+
 Opencode.fi is a simple listing of Finnish public sector IT projects, which have open sourced their development and published the source code. The service is mainly available in Finnish at [avoinkoodi.fi](http://www.avoinkoodi.fi/) and this is the english language version.
 
 This site lists the publicly available source code for software systems owned and used by Finnish public sector. We do
