@@ -63,5 +63,5 @@ The data is loaded in the web browser with Javascript in JSON-format, which mean
 
 # License
 
-The service and implementation is available under the terms of [Eclipse Public -license](https://github.com/solita/avoinkoodi/blob/master/LICENSE).
+The service and implementation is available under the terms of [Eclipse Public -license](https://github.com/solita/opencode.fi/blob/master/LICENSE).
 
